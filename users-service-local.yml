@@ -12,3 +12,6 @@ spring:
     driverClassName: org.h2.Driver
     username: cloud
     password: cloud
+  jpa:
+    hibernate:
+     ddl-auto: validate
