@@ -1,5 +1,5 @@
 server:
-  port: 10500
+  port: 0
 
 eureka:
   client:
@@ -15,6 +15,3 @@ spring:
   jpa:
     hibernate:
      ddl-auto: validate
-
-user:
-  name: Sergio
